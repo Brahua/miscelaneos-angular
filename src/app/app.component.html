@@ -1,0 +1,32 @@
+<div class="container m-5">
+  <h1>Demo <small>angular</small></h1>
+  <hr>
+  <div class="m-3">
+    <p><strong>Uso de ngStyle</strong></p>
+    <app-ng-style></app-ng-style>
+    <hr>
+    <p><strong>Uso de ngClass</strong></p>
+    <app-clases></app-clases>
+    <hr>
+    <p><strong>Directivas</strong></p>
+    <!-- cuando una directiva no tiene parametro no se coloca entre corchetes -->
+    <p [appResaltado]="'green'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eum quasi voluptas
+      numquam
+      architecto praesentium error harum inventore sint hic consectetur at tempora autem unde, modi quas repellendus
+      sunt debitis!</p>
+    <ul>
+      <li appClickCounter><a> Enlace 1</a></li>
+      <li appClickCounter><a> Enlace 2</a></li>
+    </ul>
+
+    <hr>
+    <p><strong>ng-Switch</strong></p>
+    <app-ng-switch></app-ng-switch>
+    <hr>
+    <p><strong> Ciclo de vida de un componente </strong></p>
+    <app-ciclo-vida></app-ciclo-vida>
+    <hr>
+    <p><strong> Animaciones </strong></p>
+    <app-animation></app-animation>
+  </div>
+</div>

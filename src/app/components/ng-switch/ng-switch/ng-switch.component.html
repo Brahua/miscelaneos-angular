@@ -1,0 +1,15 @@
+<div [ngSwitch]="colorSpinner">
+  <div *ngSwitchCase="'success'" class="spinner-border text-success" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div *ngSwitchCase="'default'" class="spinner-border text-default" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div *ngSwitchCase="'danger'" class="spinner-border text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div *ngSwitchDefault class="spinner-border text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+
+</div>
